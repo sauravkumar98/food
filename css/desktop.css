@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbfbfb;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#navbar {
+        margin: 30px auto;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-between;
+        padding-left: 30px;
+        
+
+}
+
+.icon
+{
+    display:none;
+}
+
+.logo span
+{
+    display: block;
+}
+ul li {
+    list-style: none;
+    margin: 40px 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(90, 86, 86);
+}
+
+#cart{
+    position: relative;
+    left: 50px;
+    padding: 10px 40px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+.box {
+    width: 80%;
+
+}
+
+
+
+.box1 {
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box1 h1 {
+    font-size: 3.5rem;
+}
+
+.box1 h1 span {
+    display: block;
+    margin: 5px 0px;
+}
+
+.box1 p {
+    display: block;
+    margin: 5px auto;
+    width: 200px;
+    text-align: start;
+    color:gray;
+}
+
+hr {
+    width: 60px;
+    height: 3px;
+    background-color: red;
+    border: none;
+}
+
+
+
+.box2 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item {
+    width: 200px;
+    height: 220px;
+    margin: 2px 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 6px 8px 20px 2px #bdb2b2;
+}
+
+img {
+width: 190px;
+height: 150px;
+margin: 5px auto;
+border-radius: 50%;
+padding: 2px 18px;
+object-fit: cover;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
